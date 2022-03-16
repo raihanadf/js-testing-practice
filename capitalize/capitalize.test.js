@@ -1,4 +1,4 @@
-const capitalize = require("./capitalize.js")
+import capitalize from "./capitalize"
 
 test('monyet to Monyet', () => {
   expect(capitalize("monyet")).toMatch("Monyet")

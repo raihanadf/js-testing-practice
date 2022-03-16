@@ -5,4 +5,4 @@ function calculator(valueA, valueB, operator){
   if(operator === 3) return valueA / valueB;
 }
 
-module.exports = calculator;
+export default calculator;
